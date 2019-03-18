@@ -2,4 +2,7 @@
 #
 # Makefile for DRIL course modules.
 
-obj-$(CONFIG_DRIL_HELLO)	:= hello.o
+obj-$(CONFIG_DRIL_HELLO)		:= hello.o
+
+obj-$(CONFIG_DRIL_GREET)		:= greet.o
+

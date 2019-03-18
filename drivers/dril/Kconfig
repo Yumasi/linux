@@ -8,4 +8,7 @@ menu "DRIL modules"
 config DRIL_HELLO
        tristate "Hello World!"
 
+config DRIL_GREET
+       tristate "Greet"
+
 endmenu
