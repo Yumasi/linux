@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: GPL-2.0
+#
+# DRIL course modules
+#
+
+menu "DRIL modules"
+
+config DRIL_HELLO
+       tristate "Hello World!"
+
+endmenu
